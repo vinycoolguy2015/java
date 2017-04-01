@@ -1,1 +1,1 @@
-# java
+# Sample java pipeline project
