@@ -52,7 +52,11 @@ pipeline {
 		    sh "java -jar rectangle_${env.BUILD_NUMBER}.jar 3 4"
             }
         }  	    
-	    
+    stage('Running on Debian') {	
+	    steps {
+		    sh "/var/www/html/rectangles/all/rectangle_${env.BUILD_NUMBER}.jar /var/www/html/rectangles/green/"
+            }
+    }
     }
      
 }
