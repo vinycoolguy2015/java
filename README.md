@@ -1,1 +1,1 @@
-# Sample java pipeline project with Jenkin
+# Sample java pipeline project with Jenkins
