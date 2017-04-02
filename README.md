@@ -1,1 +1,1 @@
-# Multi Branch java pipeline project with Jenkins Server
+# Multi Branch java pipeline project with Jenkins
