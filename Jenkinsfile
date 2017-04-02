@@ -52,7 +52,7 @@ pipeline {
 		    sh "java -jar rectangle_${env.BUILD_NUMBER}.jar 3 4"
             }
         }  	    
-    stage('Running on Debian') {
+    stage('Promote to Green') {
 	    agent {
                 label 'master'
             }
